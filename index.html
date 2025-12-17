@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taza Quiz - Practice Smarter, Score Higher, Succeed Faster</title>
+    <meta name="description" content="India's most flexible Quiz & Test Series Platform — built for students, institutes, and competitive exams.">
+    <meta name="keywords" content="quiz, test series, mock tests, SSC, Banking, JEE, NEET, competitive exams">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+   <link href="./libs/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="#" class="logo">
+                    <div class="logo-icon">⚡</div>
+                    <span>Taza<span style="color: var(--primary)">Quiz</span></span>
+                </a>
+
+                <nav class="nav">
+                    <a href="#features" class="nav-link">Features</a>
+                    <a href="#students" class="nav-link">Students</a>
+                    <a href="#institutes" class="nav-link">Institutes</a>
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                </nav>
+
+                <div class="header-actions">
+                    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                        <span class="theme-icon">🌙</span>
+                    </button>
+                    <a href="#" class="btn btn-secondary">Login</a>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                    <button class="mobile-menu-btn" onclick="toggleMobileMenu()" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+
+            <nav class="mobile-nav" id="mobileNav">
+                <a href="#features">Features</a>
+                <a href="#students">Students</a>
+                <a href="#institutes">Institutes</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#">Login</a>
+                <a href="#" class="btn btn-primary" style="margin-top: 12px; display: block; text-align: center;">Get Started</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-blob hero-blob-1"></div>
+        <div class="hero-blob hero-blob-2"></div>
+
+        <div class="container">
+            <div class="hero-badge animate-fade-up">India's Most Flexible Test Platform</div>
+
+            <h1 class="hero-title animate-fade-up delay-1">
+                Practice Smarter. <span class="gradient-text">Score Higher.</span><br>Succeed Faster.
+            </h1>
+
+            <p class="hero-desc animate-fade-up delay-2">
+                India's most flexible Quiz & Test Series Platform — built for students, institutes, and competitive exams.
+            </p>
+
+            <div class="hero-features animate-fade-up delay-3">
+                <div class="hero-feature">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    Real exam-like tests
+                </div>
+                <div class="hero-feature">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    Instant results & analytics
+                </div>
+                <div class="hero-feature">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    Multiple institutes, one platform
+                </div>
+            </div>
+
+            <div class="hero-buttons animate-fade-up delay-4">
+                <a href="#" class="btn btn-primary btn-lg">Start Free Test →</a>
+                <a href="#" class="btn btn-secondary btn-lg">▶ Create Institute Account</a>
+            </div>
+
+            <p class="hero-trust animate-fade-up delay-5">Trusted by coaching institutes, schools & educators across India</p>
+            <div class="hero-trust-items animate-fade-up delay-5">
+                <span class="hero-trust-item">📚 Competitive Exams</span>
+                <span class="hero-trust-item">🏫 Institutes</span>
+                <span class="hero-trust-item">🎓 Schools</span>
+                <span class="hero-trust-item">🧠 Self-learners</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section section-alt">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-badge">🚀 Built for Results</div>
+                <h2 class="section-title">Why Choose Our Platform?</h2>
+                <p class="section-desc">Practice what matters. Improve where you're weak.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title">Exam-Pattern Tests</h3>
+                    <p class="feature-desc">Tests designed exactly like real competitive exams.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">⏱️</div>
+                    <h3 class="feature-title">Timed & Adaptive Quizzes</h3>
+                    <p class="feature-desc">Practice under real exam conditions with smart timing.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🏆</div>
+                    <h3 class="feature-title">Instant Scorecards</h3>
+                    <p class="feature-desc">Get your results immediately with detailed rankings.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title">Performance Analysis</h3>
+                    <p class="feature-desc">Deep insights into your strengths and weaknesses.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">Mobile & Desktop</h3>
+                    <p class="feature-desc">Practice anywhere, anytime on any device.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">🧠</div>
+                    <h3 class="feature-title">Smart Practice</h3>
+                    <p class="feature-desc">Focus on what matters, improve where you're weak.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Students Section -->
+    <section id="students" class="section">
+        <div class="container">
+            <div class="split-section">
+                <div class="split-content reveal">
+                    <div class="section-badge" style="background: rgba(245, 158, 11, 0.1); color: var(--accent);">🎯 For Students</div>
+                    <h2 class="split-title">Everything You Need to Crack Exams</h2>
+
+                    <ul class="feature-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Daily Practice Quizzes
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Full-Length Mock Tests
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Topic-wise & Section-wise Tests
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Instant Results & Solutions
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            All India Rank (AIR)
+                        </li>
+                    </ul>
+
+                    <div class="exams-box">
+                        <h4>Exams Covered:</h4>
+                        <div class="exam-tags">
+                            <span class="exam-tag">SSC, Banking, Railway</span>
+                            <span class="exam-tag">JEE, NEET</span>
+                            <span class="exam-tag">State PSC</span>
+                            <span class="exam-tag">School & College Exams</span>
+                            <span class="exam-tag">Custom Institute Tests</span>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-accent">Attempt Free Quiz Now →</a>
+                </div>
+
+                <div class="split-visual reveal">
+                    <div class="visual-card">
+                        <div class="mock-card">
+                            <div class="mock-card-header">
+                                <span class="mock-card-label">Daily Quiz</span>
+                                <span class="mock-card-badge">Live</span>
+                            </div>
+                            <h4 class="mock-card-title">SSC CGL Mock Test #24</h4>
+                            <p class="mock-card-meta">100 Questions • 120 mins</p>
+                        </div>
+                        <div class="stats-row">
+                            <div class="stat-card">
+                                <div class="stat-value">85%</div>
+                                <div class="stat-label">Accuracy</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-value">AIR 234</div>
+                                <div class="stat-label">Your Rank</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- For Institutes Section -->
+    <section id="institutes" class="section section-alt">
+        <div class="container">
+            <div class="split-section">
+                <div class="split-visual reveal">
+                    <div class="visual-card">
+                        <div class="mock-card">
+                            <div style="background: rgba(99, 102, 241, 0.05); padding: 12px 16px; margin: -24px -24px 20px; border-radius: 12px 12px 0 0; border-bottom: 1px solid var(--border);">
+                                <div style="display: flex; gap: 6px; margin-bottom: 8px;">
+                                    <span style="width: 10px; height: 10px; border-radius: 50%; background: #ef4444; opacity: 0.5;"></span>
+                                    <span style="width: 10px; height: 10px; border-radius: 50%; background: #f59e0b; opacity: 0.5;"></span>
+                                    <span style="width: 10px; height: 10px; border-radius: 50%; background: #22c55e; opacity: 0.5;"></span>
+                                </div>
+                                <span style="font-size: 12px; color: var(--text-muted);">institute-dashboard</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                                <span style="font-weight: 600;">Active Students</span>
+                                <span class="stat-value">2,847</span>
+                            </div>
+                            <div class="progress-track" style="margin-bottom: 20px;">
+                                <div class="progress-fill primary" style="width: 75%;"></div>
+                            </div>
+                            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;">
+                                <div style="text-align: center; padding: 12px; background: var(--bg-secondary); border-radius: 8px;">
+                                    <div style="font-size: 18px; font-weight: 700;">156</div>
+                                    <div style="font-size: 11px; color: var(--text-muted);">Tests</div>
+                                </div>
+                                <div style="text-align: center; padding: 12px; background: var(--bg-secondary); border-radius: 8px;">
+                                    <div style="font-size: 18px; font-weight: 700;">89%</div>
+                                    <div style="font-size: 11px; color: var(--text-muted);">Completion</div>
+                                </div>
+                                <div style="text-align: center; padding: 12px; background: var(--bg-secondary); border-radius: 8px;">
+                                    <div style="font-size: 18px; font-weight: 700;">4.8★</div>
+                                    <div style="font-size: 11px; color: var(--text-muted);">Rating</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="split-content reveal">
+                    <div class="section-badge">🏫 For Institutes & Educators</div>
+                    <h2 class="split-title">Launch Your Online Test Series in Minutes</h2>
+
+                    <ul class="feature-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Your Own Branded Quiz Portal
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Separate Database for Each Institute
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Auto-created Test Environment
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Student Management Dashboard
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Test Scheduling & Result Publishing
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Zero Technical Setup Required
+                        </li>
+                    </ul>
+
+                    <p style="color: var(--text-muted); margin-bottom: 24px; font-size: 17px;">Focus on teaching. We handle the technology.</p>
+
+                    <a href="#" class="btn btn-primary">Create Institute Account →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-badge" style="background: rgba(245, 158, 11, 0.1); color: var(--accent);">🧩 Simple. Fast. Powerful.</div>
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-desc">Get started in 5 simple steps</p>
+            </div>
+
+            <div class="steps-container">
+                <div class="steps-line"></div>
+                <div class="steps-grid">
+                    <div class="step-card reveal">
+                        <div class="step-number">1</div>
+                        <div class="step-icon">👤</div>
+                        <h3 class="step-title">Create Account</h3>
+                        <p class="step-desc">Sign up in seconds with email or phone</p>
+                    </div>
+                    <div class="step-card reveal">
+                        <div class="step-number">2</div>
+                        <div class="step-icon">🔍</div>
+                        <h3 class="step-title">Select Exam</h3>
+                        <p class="step-desc">Choose your target exam or join an institute</p>
+                    </div>
+                    <div class="step-card reveal">
+                        <div class="step-number">3</div>
+                        <div class="step-icon">📝</div>
+                        <h3 class="step-title">Attempt Quiz</h3>
+                        <p class="step-desc">Take tests in real exam-like environment</p>
+                    </div>
+                    <div class="step-card reveal">
+                        <div class="step-number">4</div>
+                        <div class="step-icon">📊</div>
+                        <h3 class="step-title">Get Results</h3>
+                        <p class="step-desc">View scorecard with detailed solutions</p>
+                    </div>
+                    <div class="step-card reveal">
+                        <div class="step-number">5</div>
+                        <div class="step-icon">📈</div>
+                        <h3 class="step-title">Track & Improve</h3>
+                        <p class="step-desc">Monitor progress and focus on weak areas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analytics Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="split-section">
+                <div class="split-content reveal">
+                    <div class="section-badge" style="background: rgba(34, 197, 94, 0.1); color: var(--success);">📊 Advanced Analytics</div>
+                    <h2 class="split-title">Know Where You Stand</h2>
+                    <p style="color: var(--text-muted); font-size: 17px; margin-bottom: 28px;">Data-driven preparation = Higher scores.</p>
+
+                    <div class="analytics-list">
+                        <div class="analytics-item">
+                            <div class="analytics-icon">📊</div>
+                            <div>
+                                <h4 class="analytics-title">Subject-wise Analysis</h4>
+                                <p class="analytics-desc">Identify strengths & weaknesses by subject</p>
+                            </div>
+                        </div>
+                        <div class="analytics-item">
+                            <div class="analytics-icon">⚡</div>
+                            <div>
+                                <h4 class="analytics-title">Accuracy vs Speed</h4>
+                                <p class="analytics-desc">Balance precision with time management</p>
+                            </div>
+                        </div>
+                        <div class="analytics-item">
+                            <div class="analytics-icon">📈</div>
+                            <div>
+                                <h4 class="analytics-title">Progress Tracking</h4>
+                                <p class="analytics-desc">Monitor improvement over time</p>
+                            </div>
+                        </div>
+                        <div class="analytics-item">
+                            <div class="analytics-icon">👥</div>
+                            <div>
+                                <h4 class="analytics-title">Rank Comparison</h4>
+                                <p class="analytics-desc">See where you stand among peers</p>
+                            </div>
+                        </div>
+                        <div class="analytics-item">
+                            <div class="analytics-icon">📥</div>
+                            <div>
+                                <h4 class="analytics-title">Downloadable Reports</h4>
+                                <p class="analytics-desc">Export detailed performance reports</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="split-visual reveal">
+                    <div class="visual-card">
+                        <div class="chart-card">
+                            <h4 class="chart-title">Performance Overview</h4>
+
+                            <div class="progress-bar-container">
+                                <div class="progress-label">
+                                    <span>Mathematics</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-track">
+                                    <div class="progress-fill primary" style="width: 85%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress-bar-container">
+                                <div class="progress-label">
+                                    <span>Reasoning</span>
+                                    <span>72%</span>
+                                </div>
+                                <div class="progress-track">
+                                    <div class="progress-fill accent" style="width: 72%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress-bar-container">
+                                <div class="progress-label">
+                                    <span>English</span>
+                                    <span>91%</span>
+                                </div>
+                                <div class="progress-track">
+                                    <div class="progress-fill success" style="width: 91%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress-bar-container">
+                                <div class="progress-label">
+                                    <span>General Awareness</span>
+                                    <span>68%</span>
+                                </div>
+                                <div class="progress-track">
+                                    <div class="progress-fill primary" style="width: 68%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="mini-stats">
+                                <div class="mini-stat">
+                                    <div class="mini-stat-value">+12%</div>
+                                    <div class="mini-stat-label">This Month</div>
+                                </div>
+                                <div class="mini-stat">
+                                    <div class="mini-stat-value">Top 5%</div>
+                                    <div class="mini-stat-label">Percentile</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Features Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Platform Features</h2>
+                <p class="section-desc">Built with modern technology for the best experience</p>
+            </div>
+
+            <div class="platform-grid">
+                <div class="platform-card reveal">
+                    <div class="platform-icon"><span>⚡</span></div>
+                    <h3 class="platform-title">High-performance</h3>
+                    <p class="platform-desc">Fast & responsive</p>
+                </div>
+                <div class="platform-card reveal">
+                    <div class="platform-icon"><span>🔐</span></div>
+                    <h3 class="platform-title">Secure Database</h3>
+                    <p class="platform-desc">Per-institute isolation</p>
+                </div>
+                <div class="platform-card reveal">
+                    <div class="platform-icon"><span>📱</span></div>
+                    <h3 class="platform-title">Mobile-friendly</h3>
+                    <p class="platform-desc">Works everywhere</p>
+                </div>
+                <div class="platform-card reveal">
+                    <div class="platform-icon"><span>☁️</span></div>
+                    <h3 class="platform-title">Cloud Hosted</h3>
+                    <p class="platform-desc">Scalable & reliable</p>
+                </div>
+                <div class="platform-card reveal">
+                    <div class="platform-icon"><span>👁️</span></div>
+                    <h3 class="platform-title">Anti-cheating</h3>
+                    <p class="platform-desc">Proctored tests</p>
+                </div>
+                <div class="platform-card reveal">
+                    <div class="platform-icon"><span>🌙</span></div>
+                    <h3 class="platform-title">Light & Dark</h3>
+                    <p class="platform-desc">Theme support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-badge" style="background: rgba(245, 158, 11, 0.1); color: var(--accent);">⭐ Testimonials</div>
+                <h2 class="section-title">What Our Users Say</h2>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-quote-icon">"</div>
+                    <div class="testimonial-stars">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="testimonial-text">"This platform feels exactly like real exams. Analytics helped me improve my weak areas significantly."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">P</div>
+                        <div>
+                            <div class="testimonial-name">Priya Sharma</div>
+                            <div class="testimonial-role">SSC Aspirant</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-quote-icon">"</div>
+                    <div class="testimonial-stars">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="testimonial-text">"We launched our online test series without hiring a tech team. The dashboard is incredibly intuitive."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">R</div>
+                        <div>
+                            <div class="testimonial-name">Rajesh Kumar</div>
+                            <div class="testimonial-role">Institute Owner</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-quote-icon">"</div>
+                    <div class="testimonial-stars">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="testimonial-text">"The mock tests are perfectly designed. Got my dream job after practicing here for 3 months."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">A</div>
+                        <div>
+                            <div class="testimonial-name">Amit Patel</div>
+                            <div class="testimonial-role">Bank PO Selected</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-badge">💰 Flexible Plans</div>
+                <h2 class="section-title">Pricing for Everyone</h2>
+                <p class="section-desc">Choose the plan that fits your needs</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card reveal">
+                    <h3 class="pricing-name">Free</h3>
+                    <p class="pricing-desc">Try before you commit</p>
+                    <div class="pricing-price">
+                        <span class="pricing-amount">₹0</span>
+                        <span class="pricing-period">forever</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            5 Free Tests
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Basic Analytics
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Limited Practice
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">Start Free</a>
+                </div>
+
+                <div class="pricing-card popular reveal">
+                    <div class="pricing-popular-badge">Most Popular</div>
+                    <h3 class="pricing-name">Student Pro</h3>
+                    <p class="pricing-desc">For serious aspirants</p>
+                    <div class="pricing-price">
+                        <span class="pricing-amount">₹299</span>
+                        <span class="pricing-period">/month</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Unlimited Tests
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Full Analytics
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            All Exams Access
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Priority Support
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Downloadable Reports
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Get Started</a>
+                </div>
+
+                <div class="pricing-card reveal">
+                    <h3 class="pricing-name">Institute</h3>
+                    <p class="pricing-desc">Custom pricing based on needs</p>
+                    <div class="pricing-price">
+                        <span class="pricing-amount">Custom</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Branded Portal
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Student Management
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Custom Tests
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            Dedicated Support
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            API Access
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title reveal">Ready to Level Up Your Preparation?</h2>
+            <p class="cta-desc reveal">Start practicing today or launch your institute's test series in minutes.</p>
+            <div class="cta-buttons reveal">
+                <a href="#" class="btn btn-light btn-lg">Start Free Quiz →</a>
+                <a href="#" class="btn btn-outline-light btn-lg">▶ Create Institute Portal</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">⚡</div>
+                        <span>Taza<span style="color: var(--primary)">Quiz</span></span>
+                    </a>
+                    <p>India's most flexible Quiz & Test Series Platform — built for students, institutes, and competitive exams.</p>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Product</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Quizzes</a></li>
+                        <li><a href="#">Mock Tests</a></li>
+                        <li><a href="#">Analytics</a></li>
+                        <li><a href="#">Institute Tools</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Exams</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">SSC</a></li>
+                        <li><a href="#">Banking</a></li>
+                        <li><a href="#">JEE</a></li>
+                        <li><a href="#">NEET</a></li>
+                        <li><a href="#">State PSC</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2025 Quiz & Test Series Platform. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+</body>
+<script src="./libs/scripts.js"></script>
+</html>
