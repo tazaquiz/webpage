@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 – Page Not Found | TazaQuiz</title>
+
+  <!-- Theme Colors -->
+  <meta name="theme-color" content="#003161" />
+
+  <!-- SEO -->
+  <meta name="description" content="The page you are looking for doesn’t exist. Return to TazaQuiz and continue practicing quizzes, test series, and courses." />
+
+  <style>
+    :root {
+      --brand-primary: #003161;
+      --brand-secondary: #016A67;
+      --brand-dark: #000B58;
+      --brand-accent: #FDEB9E;
+      --text-light: #ffffff;
+      --text-muted: #cfd8e3;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, var(--brand-dark), var(--brand-primary));
+      color: var(--text-light);
+    }
+
+    .container {
+      text-align: center;
+      padding: 40px 24px;
+      max-width: 520px;
+    }
+
+    .code {
+      font-size: 120px;
+      font-weight: 800;
+      line-height: 1;
+      letter-spacing: -4px;
+      color: var(--brand-accent);
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 16px;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 12px 22px;
+      border-radius: 10px;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--brand-secondary), var(--brand-primary));
+      color: #ffffff;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+    }
+
+    .btn-outline {
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      color: #ffffff;
+      background: transparent;
+    }
+
+    .btn-outline:hover {
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    .brand {
+      margin-top: 32px;
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    .brand span {
+      color: var(--brand-accent);
+      font-weight: 600;
+    }
+
+    @media (max-width: 480px) {
+      .code {
+        font-size: 88px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="code">404</div>
+    <h1>Page Not Found</h1>
+    <p>
+      Oops! The page you’re looking for doesn’t exist or has been moved.
+      Let’s get you back to practicing.
+    </p>
+
+    <div class="actions">
+      <a href="/" class="btn btn-primary">Go to Home</a>
+      <a href="/" class="btn btn-outline">Browse Tests</a>
+    </div>
+
+    <div class="brand">
+      © <span>TazaQuiz</span> — Test Series, Quizzes & Courses
+    </div>
+  </div>
+</body>
+</html>
